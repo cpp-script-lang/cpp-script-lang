@@ -37,7 +37,7 @@ In C++ STL, coding conventions are the same as in original C++ STL.
 In C++S part of stdlib and in translators convention is:
 - variables are `snake_case`, except short names (e.g. `plusop`)
 - constants are `PascalCase` even if it is one letter (except math or physics or chemical constants like `pi`, `e`, `phi`, `g`, `Me`)
-- functions are `PascalCase`, except short name like run or help or compile or version or build
+- functions are `PascalCase`, except short name like `run` or `help` or `compile` or `version` or `build`
 - types and namespaces are `camelCase`, but if it is one word, then `PascalCase`, if it is one letter, then it is small letter
 - macros are `UPPERCASE`, except syntactic extensions, like `endfor` or `until()`
 - indentation has 4 spaces
