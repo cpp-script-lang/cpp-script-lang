@@ -1,3 +1,4 @@
+# Thank you for your interest in this project
 If you want to contribute to any of this organisation's project, read this file before.
 # Definitions
 UDI - User Defined Identifier (variable, constant, constexpr, function, type, procedure, static-initialised identifiers, etc.)
@@ -54,4 +55,4 @@ begin
     end
 end
 ```
-- Use `this` in types instead of `m_` or `_var` or `var_`.
+- Use `this` pointer in types instead of `m_` or `_var` or `var_`.
