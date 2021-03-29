@@ -2,6 +2,7 @@
 If you want to contribute to any of this organisation's project, read this file before.
 # Definitions
 UDI - User Defined Identifier (variable, constant, constexpr, function, type, procedure, static-initialised identifiers, etc.)
+
 translator - preproccessor, transpiler, compiler, interpreter, VM
 # Future plans
 C++Script is expected to have built-in reflection (by holding information about UDIs within translators) and to be DSL-oriented but still as GPL. It is maintained with the spirit of scripting.
@@ -41,6 +42,7 @@ In C++S part of stdlib and in translators convention is:
 - macros are `UPPERCASE`, except syntactic extensions, like `endfor` or `until()`
 - indentation has 4 spaces
 - `begin` is at new line, but `do` and `then` are at the same line
+
 Example:
 ```cpp
 ns example
