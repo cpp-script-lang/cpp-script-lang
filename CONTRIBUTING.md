@@ -13,7 +13,7 @@ ns cpp
 begin
     ns std
     begin
-        template<typename T, typename Alloc=cpp.std.allocator<T>>
+        template<typename T, typename Alloc=allocator<T>>
         class vector
         begin
         ...
