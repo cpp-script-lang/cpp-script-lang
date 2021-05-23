@@ -1,6 +1,7 @@
 # cpp-script-lang
 Main repository for C++Script
-If you create something related to C++Script, please create PR witth link to it in section Related
+
+If you create something related to C++Script, please create PR with link to it in section Related
 # Links
 - [Preproccessed edition](https://github.com/cpp-script-lang/cpp-script-preproccessor)
 - [Transpiled version](https://github.com/cpp-script-lang/cpp-script-transpiler)
