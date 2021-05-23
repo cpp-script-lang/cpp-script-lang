@@ -42,12 +42,13 @@ In C++S part of stdlib and in translators convention is:
 - macros are `UPPERCASE`, except syntactic extensions, like `endfor` or `until()`
 - indentation has 4 spaces
 - `begin` is at new line, but `do` and `then` are at the same line
-
+- in translators, operators `*`, `**`, `&` and `&&` are aligned to type and not to UDI
+- order of type modifiers, subtypes (`*`, `&`, `[]`, etc.) and types is **always** like: `<type-modifier> <type><sub-type>` 
 Example:
 ```cpp
-ns example
+ns Example
 begin
-    procedure Example(int& x)
+    procedure Example(ref int x)
     begin
         if x == 10 then
             until x == 0 do
@@ -58,3 +59,4 @@ begin
 end
 ```
 - Use `this` pointer in types instead of `m_` or `_var` or `var_`.
+- Do NOT use `s_` prefix for static members
