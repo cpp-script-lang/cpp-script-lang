@@ -37,13 +37,13 @@ In C++ STL, coding conventions are the same as in original C++ STL.
 In C++S part of stdlib and in translators convention is:
 - variables are `snake_case`, except short names (e.g. `plusop`)
 - constants are `PascalCase` even if it is one letter (except math or physics or chemical constants like `pi`, `e`, `phi`, `g`, `Me`)
-- functions are `PascalCase`, except conventional names like `run` or `help` or `compile` or `version` or `build`
+- functions are `PascalCase`, except one-word names when names begin with small letters
 - types and namespaces are `PascalCase`, but when it is one letter, then it is small letter
 - macros are `UPPERCASE`, except syntactic extensions, like `endfor` or `until()`
 - indentation has 4 spaces
 - `begin` is at new line, but `do` and `then` are at the same line
 - in translators, operators `*`, `**`, `&` and `&&` are aligned to type and not to UDI
-- order of type modifiers, subtypes (`*`, `&`, `[]`, etc.) and types is **always** like: `<type-modifier> <type><sub-type>` 
+- order of type modifiers (`const`, `volatile`, `ref`, `ptr`, `register`, and so on), subtypes (`*`, `&`, `[]`, etc.) and types is **always** like: `<type-modifier> <type><sub-type>` 
 Example:
 ```cpp
 ns Example
@@ -58,5 +58,5 @@ begin
     end
 end
 ```
-- Use `this` pointer in types instead of `m_` or `_var` or `var_`.
+- Use `this` pointer in types instead of `m_` nor `_var` nor `var_`.
 - Do NOT use `s_` prefix for static members
