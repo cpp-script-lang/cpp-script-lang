@@ -1,3 +1,13 @@
+# Project suspended (maybe temporarily)
+This was an idea of mine from the old days. Old meaning I was a beginner back then. I quickly realised I wasn't able to implement this. And that this setup is really prematurely bureaucratic and even if it wasn't premature, it still is too much "corporate"-ish.
+
+In the meantime I've been designing a real language, not just a scripted-version of this monolith named C++.
+
+So, someday I may (or may not) restart this project. Now I have other goals pending.
+
+Thank You for your interest, all those who cloned the repo on `24.06.2024` and `28.06.2024` (acc. to GitHub Insights).
+
+~~ @ankiedos
 # cpp-script-lang
 Main repository for C++Script
 
